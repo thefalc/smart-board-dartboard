@@ -1,5 +1,9 @@
 bin/
 *CVS/
+*.idea/
+*.settings/
+.cvsignore
+.resourceWaypoints
 
 .DS_Store
 
