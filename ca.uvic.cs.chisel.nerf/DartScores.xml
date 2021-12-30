@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ca.uvic.cs.chisel.nerf="http://dartboard.smartboard">
+  <ca.uvic.cs.chisel.nerf:Person name="Ian">
+    <games gameID="Bouncing Circles">
+      <gameThrows xPos="237" yPos="447" point="5"/>
+      <gameThrows xPos="261" yPos="291" point="5"/>
+      <gameThrows xPos="286" yPos="220" point="5"/>
+    </games>
+    <games gameID="Concentric Circles (Easy)">
+      <gameThrows xPos="354" yPos="110" point="10"/>
+      <gameThrows xPos="356" yPos="113" point="10"/>
+      <gameThrows xPos="453" yPos="33"/>
+    </games>
+  </ca.uvic.cs.chisel.nerf:Person>
+  <ca.uvic.cs.chisel.nerf:Person name="Chris C."/>
+  <ca.uvic.cs.chisel.nerf:Person name="Peter"/>
+  <ca.uvic.cs.chisel.nerf:Person name="Chris B."/>
+  <ca.uvic.cs.chisel.nerf:Person name="Cher"/>
+  <ca.uvic.cs.chisel.nerf:Person name="Jodels"/>
+  <ca.uvic.cs.chisel.nerf:Person name="Del"/>
+  <ca.uvic.cs.chisel.nerf:Person name="Sean"/>
+  <ca.uvic.cs.chisel.nerf:Person name="TDog"/>
+  <ca.uvic.cs.chisel.nerf:Person name="WW"/>
+  <ca.uvic.cs.chisel.nerf:Person name="Peggy"/>
+</xmi:XMI>

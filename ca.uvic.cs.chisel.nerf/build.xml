@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="jar" name="NerfDarts">
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+	<property name="major" value="0"/>
+	<property name="minor" value="8"/>
+	<property name="build" value="2"/>
+	<property name="bin" value="./bin"/>
+
+	<target name="jar">
+		<!-- add source code -->
+		<mkdir dir="./build/jar"/>
+		<copy todir="./build/jar">
+			<fileset dir="src"/>
+			<fileset dir="bin"/>
+		</copy>
+		<jar destfile="./build/nerf_${major}.${minor}.${build}.jar" basedir="./build/jar">
+			<manifest>
+				<attribute name="Main-Class" value="ca.uvic.cs.chisel.nerf.NerfUI"/>
+			</manifest>
+		</jar>
+		<copy file="./build/nerf_${major}.${minor}.${build}.jar" tofile="./build/nerf.jar"/>
+		
+		<delete dir="./build/jar"/>
+	</target>
+	
+	<target name="clean">
+		<delete file="./build/nerf_${major}.${minor}.${build}.jar"/>
+		<delete file="./build/nerf.jar"/>
+		<delete dir="./build/jar"/>
+	</target>
+
+</project>
